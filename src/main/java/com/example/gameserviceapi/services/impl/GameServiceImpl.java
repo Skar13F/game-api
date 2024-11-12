@@ -1,9 +1,9 @@
-package com.example.game_service_api.services.impl;
+package com.example.gameserviceapi.services.impl;
 
-import com.example.game_service_api.common.entities.GameEntity;
-import com.example.game_service_api.common.exceptions.GameException;
-import com.example.game_service_api.repositories.GameRepository;
-import com.example.game_service_api.services.GameService;
+import com.example.gameserviceapi.common.entities.GameEntity;
+import com.example.gameserviceapi.common.exceptions.GameException;
+import com.example.gameserviceapi.repositories.GameRepository;
+import com.example.gameserviceapi.services.GameService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

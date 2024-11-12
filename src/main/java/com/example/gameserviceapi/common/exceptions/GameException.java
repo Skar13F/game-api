@@ -1,4 +1,4 @@
-package com.example.game_service_api.common.exceptions;
+package com.example.gameserviceapi.common.exceptions;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

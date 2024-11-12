@@ -1,7 +1,7 @@
-package com.example.game_service_api.controllers;
+package com.example.gameserviceapi.controllers;
 
-import com.example.game_service_api.common.constants.ApiPathVariables;
-import com.example.game_service_api.common.entities.GameEntity;
+import com.example.gameserviceapi.common.constants.ApiPathVariables;
+import com.example.gameserviceapi.common.entities.GameEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,8 +1,8 @@
-package com.example.game_service_api.controllers.impl;
+package com.example.gameserviceapi.controllers.impl;
 
-import com.example.game_service_api.common.entities.GameEntity;
-import com.example.game_service_api.controllers.GameApi;
-import com.example.game_service_api.services.GameService;
+import com.example.gameserviceapi.common.entities.GameEntity;
+import com.example.gameserviceapi.controllers.GameApi;
+import com.example.gameserviceapi.services.GameService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;

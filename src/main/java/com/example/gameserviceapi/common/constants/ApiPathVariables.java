@@ -1,4 +1,4 @@
-package com.example.game_service_api.common.constants;
+package com.example.gameserviceapi.common.constants;
 
 public class ApiPathVariables {
     public static final String API = "/api";

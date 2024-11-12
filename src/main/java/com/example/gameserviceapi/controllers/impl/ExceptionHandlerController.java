@@ -1,7 +1,7 @@
-package com.example.game_service_api.controllers.impl;
+package com.example.gameserviceapi.controllers.impl;
 
-import com.example.game_service_api.common.dto.ErrorResponse;
-import com.example.game_service_api.common.exceptions.GameException;
+import com.example.gameserviceapi.common.dto.ErrorResponse;
+import com.example.gameserviceapi.common.exceptions.GameException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

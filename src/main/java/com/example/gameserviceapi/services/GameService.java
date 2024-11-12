@@ -1,6 +1,6 @@
-package com.example.game_service_api.services;
+package com.example.gameserviceapi.services;
 
-import com.example.game_service_api.common.entities.GameEntity;
+import com.example.gameserviceapi.common.entities.GameEntity;
 
 public interface GameService {
     GameEntity saveGame(GameEntity gameEntity);

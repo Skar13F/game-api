@@ -1,4 +1,4 @@
-package com.example.game_service_api;
+package com.example.gameserviceapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

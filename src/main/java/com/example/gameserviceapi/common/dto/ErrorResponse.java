@@ -1,4 +1,4 @@
-package com.example.game_service_api.common.dto;
+package com.example.gameserviceapi.common.dto;
 
 import lombok.*;
 

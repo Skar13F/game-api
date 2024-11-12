@@ -1,6 +1,6 @@
-package com.example.game_service_api.repositories;
+package com.example.gameserviceapi.repositories;
 
-import com.example.game_service_api.common.entities.GameEntity;
+import com.example.gameserviceapi.common.entities.GameEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
