@@ -6,17 +6,16 @@ import com.example.gameserviceapi.services.GameService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping
 public class GameControllerImpl implements GameApi {
     private final GameService gameService;
 
     @Override
-    public ResponseEntity<GameEntity> saveGame(@RequestBody GameEntity gameEntity) {
+    public ResponseEntity<GameEntity> saveGame(@RequestHeader("userIdRequest") String userId, @RequestBody GameEntity gameEntity) {
         GameEntity gameCreated = gameService.saveGame(gameEntity);
         return ResponseEntity.ok().body(gameCreated);
     }
